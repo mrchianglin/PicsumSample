@@ -33,13 +33,13 @@ To run unit tests, run the following command, depending on your computer OS:
 ### macOS
 
 `
-./gradlew :app:cleanTestDebugUnitTest :app:testDebugUnitTest --tests "com.example.android.resytakehomecompose.*"
+./gradlew :app:cleanTestDebugUnitTest :app:testDebugUnitTest --tests "com.example.android.picsumsample.*"
 `
 
 ### Windows
 
 `
-gradlew :app:cleanTestDebugUnitTest :app:testDebugUnitTest --tests "com.example.android.resytakehomecompose.*"
+gradlew :app:cleanTestDebugUnitTest :app:testDebugUnitTest --tests "com.example.android.picsumsample.*"
 `
 
 ## What areas of the app did you focus on?
@@ -55,7 +55,7 @@ Improving the UX allows the app to be intuitive and easy to use.
 Writing the codebase in a clean architecture allows reusability of components, improves testability, introduces separation of concerns. Not only does this improve the current code quality and developer confidence, but it also allows more features to be added in the future easily.
 
 ## Note
-The [ResyResult](https://github.com/mrchianglin/AMEX-Takehome/blob/main/app/src/main/java/com/example/android/resytakehomecompose/data/ResyResult.kt) class is a copy on Mavericks' [Async class](https://airbnb.io/mavericks/#/async).
+The [PicsumResult](https://github.com/mrchianglin/PicsumSample/blob/main/app/src/main/java/com/example/android/picsumsample/data/PicsumResult.kt) class is a copy on Mavericks' [Async class](https://airbnb.io/mavericks/#/async).
 
 In addition to the Build tools & versions mentioned earlier, the project uses other open-source libraries and dependencies such as:
 - Hilt: 2.51.1
